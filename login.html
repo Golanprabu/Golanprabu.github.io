@@ -50,57 +50,60 @@
   </div>
 </nav>
   <!--akhir navbar-->
-  <!--komik-->
-  <section id="comik">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="card"></div>
-          <img src="" alt="">
-        </div>
-      <div class="card"></div>
-          <img src="" alt="">
-        </div>
-        <div class="card"></div>
-          <img src="" alt="">
-        </div>
-        <div class="card"></div>
-          <img src="" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--Akhir komik-->
-  <!--CONTACT-->
+  <!--wrapper-->
+  <section class="wrapper">
+ <ul class="nav nav-pills nav-justified">
+   <li class="nav-item">
+    <a class="nav-link" href="#">DASHBOARD</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">REGISTRASI</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">KONFIRMASI PEMBAYARAN</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">VIEW PEMBAYARAN</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">BUKTI REGISTRASI</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">LOGIN</a>
+  </li>
+</ul>
+</section>
+  <!--akhir wrapper-->
+  <!--CONTENT-->
   <section id="CONTACT">
     <div class="container" data-aos="fade-up"
      data-aos-anchor-placement="center-bottom" data-aos-delay="1000">
-      <div class="row text-center mb-3">
+      <div class="row text-center mb-2">
         <div class="col">
-          <h2>Contact Me</h2>
+          <h2>REGISTRASI</h2>
         </div>
       </div>
         <div class="row justify-content-center">
           <div class="col-md-6">
-            <div class="alert alert-primary alert-dismissible fade show d-none my-alert" role="alert">
-  <strong>terima kasih!</strong> pesan anda sudah kami terima.
-  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>
             <form name='GOLAN-Contact-form'>
-  <div class="mb-3">
-    <label for="name" class="form-label">Nama Lengkap</label>
-    <input type="text" class="form-control" id="name" aria-describedby="name" name="nama"/>
-  </div>
    <div class="mb-3">
     <label for="email" class="form-label">Email</label>
+    <div class="alert alert-primary alert-dismissible fade show my-alert" role="alert">
+  <strong>Email Aktif!</strong>
+</div>
     <input type="email" class="form-control" id="email" aria-describedby="email" name="email"/>
   </div>
   <div class="mb-3">
-    <label for="pesan" class="form-label">Pesan</label>
-    <textarea form-control="email" class="form-control" id="pesan" aria-describedby="email" name="pesan">
-      </textarea>
+    <label for="name" class="form-label">Nama Lengkap</label>
+    <div class="alert alert-primary alert-dismissible fade show my-alert" role="alert">
+  <strong>Nama Sesuai Ijazah Terakhir!</strong>
+</div>
+    <input type="text" class="form-control" id="name" aria-describedby="name" name="nama"/>
   </div>
- 
+  <div class="mb-3">
+    <label for="Nomor" class="form-label">Nomor HP</label>
+    <input type="number" class="form-control" id="Nomor" aria-describedby="name" name="nama"/>
+  </div>
   <button type="submit" class="btn btn-success btn-kirim">KIRIM</button>
 
   <button class="btn btn-success btn-loading d-none" type="button" disabled>
@@ -108,12 +111,17 @@
   Loading...
 </button>
 </form>
+<form name="reset-button">
+    <div class="pt-3">
+    <button type="reset"  value="reset" class="btn btn-success btn-batal">BATAL</button>
+    </div>
+</form>
         </div>
       </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#198754" fill-opacity="1" d="M0,64L0,128L36.9,128L36.9,224L73.8,224L73.8,64L110.8,64L110.8,64L147.7,64L147.7,288L184.6,288L184.6,64L221.5,64L221.5,256L258.5,256L258.5,224L295.4,224L295.4,64L332.3,64L332.3,224L369.2,224L369.2,160L406.2,160L406.2,64L443.1,64L443.1,128L480,128L480,224L516.9,224L516.9,192L553.8,192L553.8,256L590.8,256L590.8,128L627.7,128L627.7,224L664.6,224L664.6,160L701.5,160L701.5,224L738.5,224L738.5,192L775.4,192L775.4,128L812.3,128L812.3,256L849.2,256L849.2,288L886.2,288L886.2,192L923.1,192L923.1,224L960,224L960,96L996.9,96L996.9,160L1033.8,160L1033.8,288L1070.8,288L1070.8,96L1107.7,96L1107.7,256L1144.6,256L1144.6,96L1181.5,96L1181.5,96L1218.5,96L1218.5,64L1255.4,64L1255.4,128L1292.3,128L1292.3,32L1329.2,32L1329.2,224L1366.2,224L1366.2,32L1403.1,32L1403.1,160L1440,160L1440,320L1403.1,320L1403.1,320L1366.2,320L1366.2,320L1329.2,320L1329.2,320L1292.3,320L1292.3,320L1255.4,320L1255.4,320L1218.5,320L1218.5,320L1181.5,320L1181.5,320L1144.6,320L1144.6,320L1107.7,320L1107.7,320L1070.8,320L1070.8,320L1033.8,320L1033.8,320L996.9,320L996.9,320L960,320L960,320L923.1,320L923.1,320L886.2,320L886.2,320L849.2,320L849.2,320L812.3,320L812.3,320L775.4,320L775.4,320L738.5,320L738.5,320L701.5,320L701.5,320L664.6,320L664.6,320L627.7,320L627.7,320L590.8,320L590.8,320L553.8,320L553.8,320L516.9,320L516.9,320L480,320L480,320L443.1,320L443.1,320L406.2,320L406.2,320L369.2,320L369.2,320L332.3,320L332.3,320L295.4,320L295.4,320L258.5,320L258.5,320L221.5,320L221.5,320L184.6,320L184.6,320L147.7,320L147.7,320L110.8,320L110.8,320L73.8,320L73.8,320L36.9,320L36.9,320L0,320L0,320Z"></path></svg>
   </section>
-  <!--AKHIR CONTACT-->
+  <!--AKHIR CONTENT-->
   <!--footer-->
   <footer class="bg-success text-white text-center pb-5">
     <p>Created with <i class="bi bi-emoji-expressionless-fill text-warning"></i> by <a href="https://www.instagram.com/golan_prabu.12/" class="text-white fw-bold">Golan</a></p>
@@ -138,8 +146,6 @@
         //tampilkan tombol kirim, hilangkan tombol loading
         btnloading.classList.toggle('d-none');
         btnkirim.classList.toggle('d-none');
-        //ampilkan alert
-        myalert.classList.toggle('d-none')
         //reset formnya
         form.reset();
         console.log('Success!', response)
